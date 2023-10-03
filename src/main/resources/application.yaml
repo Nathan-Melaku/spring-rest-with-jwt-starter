@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testdatabase
+    password: secret
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    generate-ddl: true
+logging:
+  level:
+    org.springframework.r2dbc: DEBUG
+rsa:
+  rsa-private-key: classpath:certs/private.pem
+  rsa-public-key: classpath:certs/public.pem
