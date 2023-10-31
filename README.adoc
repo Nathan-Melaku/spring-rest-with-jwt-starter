@@ -12,9 +12,11 @@ This kind of scenario is very common, so this starter will be a good on to start
 
 == Build
 This is a typical spring boot project. Use the Gradle tasks for spring.
-[source, shell]
-```
+
+[source,shell]
+[source]
+----
 ./gradew springboot:run
-```
+----
 
 A nice addition in this project is the usage of Testcontainers for local development. There is a TestApplication class in the test package. You can use it for local development.
