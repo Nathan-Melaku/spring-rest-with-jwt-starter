@@ -1,4 +1,4 @@
-package et.nate.poll.security;
+package et.nate.poll.secured;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
