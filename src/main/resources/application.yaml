@@ -6,6 +6,8 @@ spring:
   jpa:
     database: postgresql
     generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
 logging:
   level:
     org.springframework.r2dbc: DEBUG
