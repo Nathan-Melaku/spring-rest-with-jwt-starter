@@ -1,0 +1,20 @@
+= Spring Boot Rest with JWT stater
+
+== Introduction
+
+This project is a starter project for creating rest api server with jwt based security. It has two main functions.
+
+1. allow registration with a basic auth, backed with a postgres database. Since JPA is being used you can replace the database with other ones.
+2. allow registered users login and receive a JWT token.
+3. After receiving the token, users can access secured endpoint using the token.
+
+This kind of scenario is very common, so this starter will be a good on to start with and start implement your business logic. When the necessity arises we can remove the basic auth and jwt minting from our application and configure an external authorization server.
+
+== Build
+This is a typical spring boot project. Use the Gradle tasks for spring.
+[source, shell]
+```
+./gradew springboot:run
+```
+
+A nice addition in this project is the usage of Testcontainers for local development. There is a TestApplication class in the test package. You can use it for local development.
