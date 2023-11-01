@@ -5,10 +5,9 @@
 
 = Spring Boot Rest with JWT stater
 
-++++
-image::https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg[askme]
-image::https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white[spring]
-++++
+|===
+| image::https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg[askme] | image::https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white[spring]
+|===
 
 == Introduction
 
