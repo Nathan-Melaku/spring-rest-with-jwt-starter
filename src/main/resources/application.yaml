@@ -8,6 +8,9 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: create-drop
+  main:
+    banner-mode: off
+
 rsa:
   rsa-private-key: classpath:certs/private.pem
   rsa-public-key: classpath:certs/public.pem
